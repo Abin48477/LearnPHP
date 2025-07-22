@@ -10,7 +10,8 @@ else{
 }
 
 echo "<br> <br> Counting the number.";
-for($i = 0;$i<=5;$i++){
-    echo "Count $i ";
+
+for($i = 0; $i<=5; $i++){
+    echo "Count  $i ";
 }
 ?>
