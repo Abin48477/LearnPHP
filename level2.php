@@ -1,5 +1,5 @@
 <?php
-/*
+
 //simple function
 function sayHello(){
     echo "hello hare krishna!! <br>";
@@ -18,22 +18,22 @@ function greet($name) {
 greet("Balaram");
 greet("krishna");
 greet("abin");
-*/
+
 
 // function with return value
-// function add($a ,$b) {
-//     return $a + $b;
+function add($a ,$b) {
+    return $a + $b;
 
-// }
-// function helloFriends(){
-//     echo "jaya balaram!";
+}
+function helloFriends(){
+    echo "jaya balaram!";
 
-// }
-// function square($n){
-//     echo " $n square is:".($n*$n) ."<br>";
-// }
-// square(4);
+}
+function square($n){
+    echo " $n square is:".($n*$n) ."<br>";
+}
+square(4);
 
-// // echo add(13,5);
-// helloFriends();
+// echo add(13,5);
+helloFriends();
 ?>
