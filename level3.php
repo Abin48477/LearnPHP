@@ -24,4 +24,19 @@ foreach($marks as $subject=>$m){
     echo "$subject". ":".$m ."<br>";
 
 }
+$fruits =["apple","banana","puppya","grapes"];
+    echo "The List of Fruits are: "."<br>";
+foreach($fruits as $fruit){
+    echo $fruit."<br>";
+}
+
+$profile =[
+"name"=>"Abin",
+"age"=>21,
+"hobby"=>"Programming",
+"fav_god"=> "Krishna"];
+foreach($profile as $p=>$details){
+    echo $p.":".$details."<br>";
+}
 ?>
+
