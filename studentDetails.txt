@@ -1,2 +1,3 @@
-
-abin ghimire, 3, bca, 9767949689 ,abgh_bca2080@lict.edu.np, hetauda
+abin ghimire, 3, BCA, 9767949689 ,abgh_bca2080@lict.edu.np, hetauda
+sasin pravujee, 25, CSIT, 98234532234 ,sasinxettry@gmail.com, bharatpur-7
+Rajan Poudel, 23, BIT, 9767949689 ,rapo_bca2080@lict.edu.np, Gaindakot-04
