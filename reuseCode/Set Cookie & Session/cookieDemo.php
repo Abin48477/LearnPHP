@@ -25,3 +25,17 @@ if(!isset($_COOKIE[$cookie_name])) {
     echo "Value: " . $_COOKIE[$cookie_name];
 }
 ?>
+    <h1>Cookie Demo</h1>
+    <p>A cookie named "user" has been set with the value "John Doe".</p>
+    <p>Refresh the page to see the cookie value.</p>
+    <?php
+    // To delete the cookie, set its expiration time to one hour ago
+    setcookie($cookie_name, "", time() - 3600, "/");//""-->leaving value empty
+    ?><html>
+      <body>
+        <?php
+        echo"Cookie 'user' id deleted.";
+        ?>
+      </body>
+    </html>
+
