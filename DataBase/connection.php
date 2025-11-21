@@ -1,6 +1,6 @@
 <?php
 // Database connection script
-$servername = "localhost"; 
+$servername = "localhost:3308"; 
 $username = "root";
 $password = "";
 $database = "mydb"; // Replace with your actual database name

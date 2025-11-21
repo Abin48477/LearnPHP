@@ -16,6 +16,8 @@
         $phone = $_POST["phone"];
         $email = $_POST["email"];
         $address = $_POST["address"];
+
+
         $txt = "$name, $rollno, $class, $phone ,$email, $address\n";
         $myfile = fopen("studentDetails.txt", "a+") or die("unable to open file");
         fwrite($myfile, $txt);
