@@ -34,4 +34,20 @@ $file = "data.txt";
 $handle = fopen($file, "a");
 // Text to append
 $text = "Appending this line.\n";
-    
+// Append and close
+fwrite($handle, $text);
+fclose($handle);
+echo "File appended successfully.";
+?><?php
+// delete.php       
+$file = "data.txt";
+// Delete file
+if (file_exists
+($file)) {
+    unlink($file);
+    echo "File deleted successfully.";
+} else {
+    echo "File does not exist.";
+}
+?>
+
