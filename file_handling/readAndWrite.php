@@ -51,3 +51,31 @@ if (file_exists
 }
 ?>
 
+<?php
+// readAndWrite.php
+$file = "data.txt";
+// Open file in read and write mode
+$handle = fopen($file, "r+");
+// Read existing content
+$content = fread($handle, filesize($file));
+echo "Existing content: \n" . $content;
+// Move pointer to the end for appending
+fseek($handle, 0, SEEK_END);
+// Text to append
+$text = "Adding this line in read and write mode.\n";
+// Write and close
+fwrite($handle, $text);
+fclose($handle);
+echo "File updated successfully.";
+?>
+<?php
+// fileExists.php
+$file = "data.txt";
+// Check if file exists
+if (file_exists($file)) {
+    echo "File exists.";
+} else {
+    echo "File does not exist.";
+}
+?>
+
