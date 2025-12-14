@@ -26,9 +26,8 @@ fclose($handle);
 echo "File content: \n" . $content;
 ?>
 <?php
+
 // append.php
-
-
 $file = "data.txt";
 // Open file in append mode
 $handle = fopen($file, "a");
@@ -38,12 +37,13 @@ $text = "Appending this line.\n";
 fwrite($handle, $text);
 fclose($handle);
 echo "File appended successfully.";
-?><?php
+?>
+
+<?php
 // delete.php       
 $file = "data.txt";
 // Delete file
-if (file_exists
-($file)) {
+if (file_exists($file)) {
     unlink($file);
     echo "File deleted successfully.";
 } else {
